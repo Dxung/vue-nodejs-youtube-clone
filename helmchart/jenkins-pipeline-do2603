@@ -31,7 +31,7 @@ pipeline {
             steps {
                 sh '''
                     echo "NODE_ENV=production" > .env.production.local
-                    echo "VUE_APP_URL=https://tvtien-cicd-youtube.do2602.click" >> .env.production.local
+                    echo "VUE_APP_URL=https://tvtien-cicd-youtube.do2603.click" >> .env.production.local
                     echo "VUE_APP_TITLE=My App Production" >> .env.production.local
                 '''
             }
